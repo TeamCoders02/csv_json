@@ -1,9 +1,10 @@
-#CSV_JSON:
+##CSV_JSON:
 
 A python package to convert the CSV (Comma Separated values) format files to the JSON (JavaScript
 Object Notation) files and vice versa i.e. JSON files to CSV.
 
-#INSTALLATION
+##INSTALLATION
+
 Before you can use CSV_JSON, you’ll need to get it installed.
 
 >conda install csv_json
@@ -12,7 +13,7 @@ csv_json can be installed via pip from PyPI.
 
 >pip install csv_json
 
-#USAGE
+##USAGE
 
 To convert the csv files to json you will need to import the package csv_To_json
 
