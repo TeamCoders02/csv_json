@@ -15,22 +15,42 @@ csv_json can be installed via pip from PyPI.
 
 # USAGE
 
-To convert the csv files to json you will need to import the package csv_To_json
+To convert the csv files to json you will need to import package csv_To_json class from csv_to_json module in csv_json
 
->from CSV_JSON import csv_To_json
+>from csv_json.csv_to_json import csv_To_json as csj
 
->var = csv_to_json.csv_to_json()
+Creating the csv_to_json class object
 
->var.input(“CSV file path”) 
+>var = csj()
 
->var.write_json(“JSON file path”) 
+Passing csv file path through read_csv() method
 
-To convert the csv files to json you will need to import the package json_To_csv
+>var.read_csv(path=“CSV file path”) 
 
->from CSV_JSON import json_To_csv
+Writing the json file with json file path or the file name to the write_json() method
+You can alternatively pass a list of labels if requires
 
->var = json_to_csv.json_to_csv ()
+>var.write_json(path=“JSON file path”, label=None) 
 
->var.input(“JSON file path”) 
+# JSON TO CSV 
 
->var.write_csv(“csv file path”) 
+To convert the csv files to json you will need to import json_To_csv class from json_to_csv module in csv_json package
+
+>from csv_json.json_to_csv import json_To_csv as jsc
+
+Creating a json_to_csv class object
+
+>var = jsc()
+
+Reading json file by passing the json file path to  read_json() method
+
+>var.read_json(path=“JSON file path”) 
+
+Extracting the labels in the json file through get_label() method
+
+>var.get_label()
+
+Write the csv file by passing csv file path to write_csv() method. 
+You can alternatively pass head list representing the first row of the csv file if required
+
+>var.write_csv(path=“csv file path”, head=None) 
