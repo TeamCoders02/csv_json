@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: csv-json
+Version: 0.0.1
+Summary: A package to convert csv files to json and vice-versa
+Home-page: https://github.com/TeamCoders02/csv_json
+Author: Daniel, Harish
+Author-email: teamcoders21@gmail.com
+License: UNKNOWN
+Description: # csv_json
+        This repository is made to convert csv files to json files and vice-versa.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
