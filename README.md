@@ -15,7 +15,7 @@ csv_json can be installed via pip from PyPI.
 
 # USAGE
 
-To convert the csv files to json you will need to import package csv_To_json class from csv_to_json module in csv_json
+To convert the csv files to json you will need to import csv_To_json class from csv_to_json module in csv_json
 
 >from csv_json.csv_to_json import csv_To_json as csj
 
