@@ -28,7 +28,7 @@ Passing csv file path through read_csv() method
 >var.read_csv(path=“CSV file path”) 
 
 Writing the json file with json file path or the file name to the write_json() method
-You can alternatively pass a list of labels if requires
+You can alternatively pass a list of labels if required.
 
 >var.write_json(path=“JSON file path”, label=None) 
 
@@ -51,6 +51,6 @@ Extracting the labels in the json file through get_label() method
 >var.get_label()
 
 Write the csv file by passing csv file path to write_csv() method. 
-You can alternatively pass head list representing the first row of the csv file if required
+You can alternatively pass head list representing the first row of the csv file if required.
 
 >var.write_csv(path=“csv file path”, head=None) 
