@@ -6,7 +6,8 @@ Object Notation) files and vice versa i.e. JSON files to CSV.
 # Requirements
  
  Python version >= 3.6
- OS independent 
+
+ OS (Windows/MacOS/Linux)
 
 # Installation
 
