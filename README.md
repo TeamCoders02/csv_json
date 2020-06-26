@@ -1,9 +1,14 @@
-# CSV_JSON
+# About
 
 A python package to convert the CSV (Comma Separated values) format files to the JSON (JavaScript
 Object Notation) files and vice versa i.e. JSON files to CSV.
 
-# INSTALLATION
+# Requirements
+ 
+ Python version >= 3.6
+ OS independent 
+
+# Installation
 
 Before you can use CSV_JSON, you’ll need to get it installed.
 
@@ -13,7 +18,7 @@ csv_json can be installed via pip from PyPI.
 
 >pip install csv_json
 
-# USAGE
+# CSV TO JSON
 
 To convert the csv files to json you will need to import csv_To_json class from csv_to_json module in csv_json
 
@@ -54,3 +59,13 @@ Write the csv file by passing csv file path to write_csv() method.
 You can alternatively pass head list representing the first row of the csv file if required.
 
 >var.write_csv(path=“csv file path”, head=None) 
+
+# Applications
+
+1. JSON format files are widely used in parsoning of the web API's and many more..
+2. CSV format files are used for handling the databases for various machine learning and AI models and many more..
+
+# Authors
+
+[Daniel S](https://github.com/godisgreat) and [Harish Kumar S Guragol](https://github.com/HarishGuragol)
+
