@@ -3,6 +3,8 @@
 A python package to convert the CSV (Comma Separated values) format files to the JSON (JavaScript
 Object Notation) files and vice versa i.e. JSON files to CSV.
 
+ Open-sourced Package : https://pypi.org/project/csv-json/
+
 # Requirements
  
  Python version >= 3.6
