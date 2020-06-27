@@ -52,11 +52,7 @@ Creating a json_to_csv class object
 
 Reading json file by passing the json file path to  read_json() method
 
->var.read_json(path=“JSON file path”) 
-
-Extracting the labels in the json file through get_label() method
-
->var.get_label()
+>var.read_json(path=“JSON file path”)
 
 Write the csv file by passing csv file path to write_csv() method. 
 You can alternatively pass head list representing the first row of the csv file if required.
