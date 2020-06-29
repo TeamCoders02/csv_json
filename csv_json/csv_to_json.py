@@ -5,12 +5,14 @@ class csv_to_json():
         self.d=[]
         self.b=[]
         self.sti=[]
+        self.pat=''
 
 
     def read_csv(self, path=None):
         if path==None:
             raise Exception('file name not found')
         f=open(path,'r')
+        self.pat=path
 
 
         self.a = f.readline()
@@ -22,7 +24,10 @@ class csv_to_json():
             self.b[i]=self.b[i].replace('\n','')
     def write_json(self,path=None,label=None):
         if path==None:
-            f=open("JSON.json", "w")
+            m=self.pat.index('.')
+            self.pat=self.pat[:m]
+            self.pat+='.json'
+            f=open(self.pat, "w")
         else :
             f=open(path,'w')
         if label!=None:
