@@ -46,6 +46,9 @@ class json_to_csv():
             self.b[i]=self.b[i].replace(' ','')
 
         if path==None:
+            m=self.p.index('.')
+            self.p=self.p[:m]
+            self.p+='.csv'
             f=open(self.p,'w')
         else :
             f=open(path,'w')
