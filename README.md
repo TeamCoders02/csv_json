@@ -22,42 +22,33 @@ csv_json can be installed via pip from PyPI.
 >pip install csv_json
 
 # CSV TO JSON
+To convert CSV files to JSON files, import csvjson module from csv_json.
 
-To convert the csv files to json you will need to import csv_To_json class from csv_to_json module in csv_json
+>from csv_json import csvjson as cj
 
->from csv_json.csv_to_json import csv_To_json as csj
+Read the CSV file by passing the CSV file path to read_csv().
 
-Creating the csv_to_json class object
+>cj.read_csv('CSV file path')
 
->var = csj()
+Convert the given CSV file to JSON file by passing the JSON file path to write_json().
+You can alternatively pass a list of label as an additional argument to the write_json() if required.
 
-Passing csv file path through read_csv() method
-
->var.read_csv(path=“CSV file path”) 
-
-Writing the json file with json file path or the file name to the write_json() method
-You can alternatively pass a list of labels if required.
-
->var.write_json(path=“JSON file path”, label=None) 
+>cj.write_json('JSON file path',label=None)
 
 # JSON TO CSV 
 
-To convert the csv files to json you will need to import json_To_csv class from json_to_csv module in csv_json package
+To convert JSON files to CSV files, import the csvjson module from csv_json package.
 
->from csv_json.json_to_csv import json_To_csv as jsc
+>from csv_json import csvjson as cj
 
-Creating a json_to_csv class object
+Read the required JSON file by passing the JSON file path to the read_json().
 
->var = jsc()
+>cj.read_json('JSON file path') 
 
-Reading json file by passing the json file path to  read_json() method
+Convert the Given JSON file to the CSV file by passing the CSV file path to write_csv().
+You can pass list of items(header row) as an additional argument to the write_csv().
 
->var.read_json(path=“JSON file path”) 
-
-Write the csv file by passing csv file path to write_csv() method. 
-You can alternatively pass head list representing the first row of the csv file if required.
-
->var.write_csv(path=“csv file path”, head=None) 
+>cj.write_csv('CSV file path', head=None)
 
 # Applications
 
