@@ -12,7 +12,7 @@ def type_ch(item):
         if item=='False' or item=='false':
             return str(False)
 
-        return '"'+item+'"'
+        return item
 
 class csv_to_json():
     def __init__(self):
