@@ -60,6 +60,8 @@ class json_to_csv():
             f=open(path,'w')
 
         if head==None:
+
+
             for i in self.a:
                 if self.a.index(i)!=len(self.a)-1:
                     f.write(i)
@@ -67,12 +69,14 @@ class json_to_csv():
                 else:
                     f.write(i)
                     f.write('\n')
-            for i in self.b:
-                if self.b.index(i)%len(self.a)!=len(self.a)-1:
-                    f.write(i)
+            for i in range(len(self.b)):
+                if i%len(self.a)!=len(self.a)-1:
+
+                    f.write(self.b[i])
                     f.write(',')
                 else:
-                    f.write(i)
+
+                    f.write(self.b[i])
                     f.write('\n')
         else :
 
@@ -91,12 +95,3 @@ class json_to_csv():
                 else:
                     f.write(i)
                     f.write('\n')
-
-
-
-
-
-
-
-
-        f.close()
