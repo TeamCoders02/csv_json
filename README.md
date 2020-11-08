@@ -39,6 +39,8 @@ You can alternatively pass a list of label as an additional argument to the writ
 
 To convert JSON files to CSV files, import the csvjson module from csv_json package.
 
+>var.read_json(path=“JSON file path”)
+
 >from csv_json import csvjson as cj
 
 Read the required JSON file by passing the JSON file path to the read_json().
@@ -52,8 +54,8 @@ You can pass list of items(header row) as an additional argument to the write_cs
 
 # Applications
 
-1. JSON format files are widely used in parsoning of the web API's and many more..
-2. CSV format files are used for handling the databases for various machine learning and AI models and many more..
+1. JSON format files are widely used in parsoning of the web API's and many more
+2. CSV format files are used for handling the databases for various machine learning and AI models and many more
 
 # Authors
 
