@@ -61,8 +61,8 @@ You can alternatively pass head list representing the first row of the csv file 
 
 # Applications
 
-1. JSON format files are widely used in parsoning of the web API's and many more..
-2. CSV format files are used for handling the databases for various machine learning and AI models and many more..
+1. JSON format files are widely used in parsoning of the web API's and many more
+2. CSV format files are used for handling the databases for various machine learning and AI models and many more
 
 # Authors
 
