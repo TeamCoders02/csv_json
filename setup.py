@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="csv_json", # Replace with your own username
-    version="0.0.2",
+    version="1.0.0",
     author="Daniel, Harish",
     author_email="teamcoders21@gmail.com",
     description="A package to convert csv files to json and vice-versa",
